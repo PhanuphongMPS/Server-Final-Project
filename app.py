@@ -8,6 +8,7 @@ app = Flask(__name__)
 @app.route("/webhook", methods=["POST"])
 def callback():
     request_json = request.get_json(silent=True, force=True)
+    print(request_json)
     try:
         if request_json["events"][0]["message"]["type"] == "text":
             headers = dict(request.headers)
