@@ -1,0 +1,24 @@
+{
+    "destination": "U176611e88a398e7f85d82703d497aa9a",
+    "events": [
+        {
+            "type": "message",
+            "message": {
+                "type": "text",
+                "id": "16554468460794",
+                "text": "Hello mama"
+            },
+            "webhookEventId": "01G9PBQF5HWPQ34NZGKWRV6F0Q",
+            "deliveryContext": {
+                "isRedelivery": False
+            },
+            "timestamp": 1659681618638,
+            "source": {
+                "type": "user",
+                "userId": "Uf7c0f0bb530de6c17b105c3bd99c9f38"
+            },
+            "replyToken": "59e153ecb11b464cb7a9159f7bec902a",
+            "mode": "active"
+        }
+    ]
+}

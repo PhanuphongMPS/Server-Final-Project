@@ -1,4 +1,6 @@
+from asyncio import events
 import json
+from traceback import print_tb
 import requests
 from flask import Flask, request
 
@@ -9,6 +11,7 @@ app = Flask(__name__)
 def callback():
     request_json = request.get_json(silent=True, force=True)
     print(request_json)
+    print(request_json["events"][0]["replyToken"])
     try:
         if request_json["events"][0]["message"]["type"] == "text":
             headers = dict(request.headers)
@@ -18,6 +21,8 @@ def callback():
     except:
         None
 
-
 if __name__ == "main":
     app.run()
+##############################
+def replyToken():
+    request_json = request.get_json()
