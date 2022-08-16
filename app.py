@@ -4,12 +4,12 @@ from traceback import print_tb
 import requests
 from flask import Flask, request
 #test
-from random import randint
-import firebase_admin
-from firebase_admin import credentials
-from firebase_admin import firestore
-cred = credentials.Certificate("supcar-85c0a-firebase-adminsdk-o10rd-ccdceef4b1.json")
-firebase_admin.initialize_app(cred)
+#from random import randint
+#import firebase_admin
+#from firebase_admin import credentials
+#from firebase_admin import firestore
+#cred = credentials.Certificate("supcar-85c0a-firebase-adminsdk-o10rd-ccdceef4b1.json")
+#firebase_admin.initialize_app(cred)
 
 app = Flask(__name__)
 
@@ -17,14 +17,14 @@ app = Flask(__name__)
 @app.route("/webhook", methods=["POST"])
 
 #test
-def Carname():
-    database_ref = firestore.client().document('Carname/Car')
-    database_dict = database_ref.get().to.dict()
-    database_list = list(database_dict.values())
-    ran_manu = randint(0, len(database_list)-1)
-    menu_name = database_list[ran_manu]
-    answer_function = menu_name + 'ไม่มีสินค้าในขณะนี้'
-    return answer_function
+#def Carname():
+   # database_ref = firestore.client().document('Carname/Car')
+    #database_dict = database_ref.get().to.dict()
+    #database_list = list(database_dict.values())
+   # ran_manu = randint(0, len(database_list)-1)
+   # menu_name = database_list[ran_manu]
+   # answer_function = menu_name + 'ไม่มีสินค้าในขณะนี้'
+   # return answer_function
 
 
 def callback():
