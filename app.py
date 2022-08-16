@@ -8,7 +8,7 @@ from random import randint
 import firebase_admin
 from firebase_admin import credentials
 from firebase_admin import firestore
-cred = credentials.Certificate("supcar-85c0a-firebase-adminsdk-o10rd-2de71588a3.json")
+cred = credentials.Certificate("supcar-85c0a-firebase-adminsdk-o10rd-ccdceef4b1.json")
 firebase_admin.initialize_app(cred)
 
 app = Flask(__name__)
