@@ -5,19 +5,19 @@
             "type": "message",
             "message": {
                 "type": "text",
-                "id": "16616376525665",
-                "text": "🤫"
+                "id": "16616674646679",
+                "text": "Hi"
             },
-            "webhookEventId": "01GAJJNBA2YYZYZEY2ESVFHTHK",
+            "webhookEventId": "01GAJP9YFK1YEB3CZCA5TPZN6Y",
             "deliveryContext": {
                 "isRedelivery": False
             },
-            "timestamp": 1660628413237,
+            "timestamp": 1660632234363,
             "source": {
                 "type": "user",
                 "userId": "Uf7c0f0bb530de6c17b105c3bd99c9f38"
             },
-            "replyToken": "e647e5492154431c879c3822e674b63f",
+            "replyToken": "ea760e0b944f4a4fb8c291bed9aff357",
             "mode": "active"
         }
     ]
