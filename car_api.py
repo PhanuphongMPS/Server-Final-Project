@@ -1,13 +1,13 @@
 import requests
 import json
 
-url = "https://car-api2.p.rapidapi.com/api/models"
+url = "https://car-data.p.rapidapi.com/cars"
 
-querystring = {"sort":"id","direction":"asc"}
+querystring = {"limit":"10","page":"0"}
 
 headers = {
 	"X-RapidAPI-Key": "SIGN-UP-FOR-KEY",
-	"X-RapidAPI-Host": "car-api2.p.rapidapi.com"
+	"X-RapidAPI-Host": "car-data.p.rapidapi.com"
 }
 
 response = requests.request("GET", url, headers=headers, params=querystring)
