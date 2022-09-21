@@ -3,14 +3,19 @@ import json
 from traceback import print_tb
 import requests
 from flask import Flask, request
-from flask_restful import Api
+from flask_restful import Api,Resource
 
 
 app = Flask(__name__)
 api=Api(app)
 
-
 @app.route("/webhook", methods=["POST"])
+
+# class TypeCar(Resource):
+#     def get(self):
+#         return{"data":"name car"}
+# #call
+# api.add_resource(TypeCar,"Car")
 
 def callback():
     request_json = request.get_json(silent=True, force=True)
