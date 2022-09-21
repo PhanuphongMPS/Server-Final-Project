@@ -15,4 +15,5 @@ response = requests.request("GET", url, headers=headers, params=querystring)
 print(response.text)
 
 with open('models_api.json', 'w') as outfile:
-    json.dump(response.text(), outfile)
+    json.dump(response.json(), outfile, indent=4)
+ 
