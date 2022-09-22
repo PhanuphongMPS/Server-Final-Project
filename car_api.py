@@ -2,17 +2,13 @@ import requests
 import json
 import pandas as pd
 
-url = "https://smartcar.p.rapidapi.com/vehicles"
-
-headers = {
-	"Authorization": "<REQUIRED>",
-	"X-RapidAPI-Key": "SIGN-UP-FOR-KEY",
-	"X-RapidAPI-Host": "smartcar.p.rapidapi.com"
-}
-
-response = requests.request("GET", url, headers=headers)
-
-print(response.text)
+model = 'camry'
+api_url = 'https://api.api-ninjas.com/v1/cars?model={}'.format(model)
+response = requests.get(api_url, headers={'X-Api-Key': 'YOUR_API_KEY'})
+if response.status_code == requests.codes.ok:
+    print(response.text)
+else:
+    print("Error:", response.status_code, response.text)
 
 with open('models_api.json', 'w') as outfile:
     json.dump(response.json(), outfile, indent=4)
