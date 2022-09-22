@@ -1,5 +1,6 @@
 import requests
 import json
+import pandas as pd
 
 url = "https://car-data.p.rapidapi.com/cars"
 
@@ -16,4 +17,7 @@ print(response.text)
 
 with open('models_api.json', 'w') as outfile:
     json.dump(response.json(), outfile, indent=4)
+
+df = pd.json_normalize(response.json())
+print(df)
  
