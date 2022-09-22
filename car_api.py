@@ -2,16 +2,15 @@ import requests
 import json
 import pandas as pd
 
-url = "https://car-data.p.rapidapi.com/cars"
-
-querystring = {"limit":"10","page":"0"}
+url = "https://smartcar.p.rapidapi.com/vehicles"
 
 headers = {
+	"Authorization": "<REQUIRED>",
 	"X-RapidAPI-Key": "SIGN-UP-FOR-KEY",
-	"X-RapidAPI-Host": "car-data.p.rapidapi.com"
+	"X-RapidAPI-Host": "smartcar.p.rapidapi.com"
 }
 
-response = requests.request("GET", url, headers=headers, params=querystring)
+response = requests.request("GET", url, headers=headers)
 
 print(response.text)
 
