@@ -15,6 +15,6 @@ response = requests.request("GET", url, headers=headers, params=querystring)
 
 print(response.text)
 
-df = pd.json_normalize(response.json())
-print(df)
+# df = pd.json_normalize(response.json())
+# print(df)
  
