@@ -15,6 +15,9 @@ response = requests.request("GET", url, headers=headers, params=querystring)
 
 print(response.text)
 
+with open('models_api.json', 'w') as outfile:
+    json.dump(json_string, outfile, indent=4)
+
 # df = pd.json_normalize(response.json())
 # print(df)
  
