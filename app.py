@@ -32,11 +32,6 @@ def callback():
                           data=request.data, headers=headers)
     except:
         None
-
-if __name__ == "main":
-    app.run()
-
-
 def search_answer(question_from_dailogflow_dict):
     print(json.dumps(question_from_dailogflow_dict, indent=4 , ensure_ascil=False))
     intent_group_question_str = question_from_dailogflow_dict["queryResult"]["intent"]["displayName"]
@@ -53,3 +48,9 @@ def namecar():
     #car_data = database_list(premiumcar)
     answer_function = car_data
     return answer_function
+
+if __name__ == "main":
+    app.run()
+
+
+
