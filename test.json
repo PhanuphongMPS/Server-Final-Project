@@ -1,24 +1,81 @@
 {
-    "destination": "U176611e88a398e7f85d82703d497aa9a",
-    "events": [
-        {
-            "type": "message",
-            "message": {
-                "type": "text",
-                "id": "16616674646679",
-                "text": "Hi"
-            },
-            "webhookEventId": "01GAJP9YFK1YEB3CZCA5TPZN6Y",
-            "deliveryContext": {
-                "isRedelivery": False
-            },
-            "timestamp": 1660632234363,
-            "source": {
-                "type": "user",
-                "userId": "Uf7c0f0bb530de6c17b105c3bd99c9f38"
-            },
-            "replyToken": "ea760e0b944f4a4fb8c291bed9aff357",
-            "mode": "active"
+  "responseId": "e4330099-91f5-4118-a500-c620ab8c7f5d-1850dda5",
+  "queryResult": {
+    "queryText": "Audi",
+    "action": "BrandSearch.BrandSearch-custom.BrandSearch-name-custom",
+    "parameters": {
+      "Brand": "Audi",
+      "name": "มาย"
+    },
+    "allRequiredParamsPresent": True,
+    "fulfillmentText": "รถยนต์ที่คุณมายต้องการค้นหาคือ Audi นะครับ",
+    "fulfillme       entMessages": [
+      {
+        "text": {
+          "text": [
+            "รถยนต์ที่คุณมายต้องการค้นหาคือ Audi นะครับ"
+          ]
         }
-    ]
+      },
+      {
+        "payload": {
+          "line": {
+            "type": "sticker",
+            "packageId": "1",
+            "stickerId": "4"
+          }
+        }
+      }
+    ],
+    "outputContexts": [
+      {
+        "name": "projects/supcar-85c0a/agent/sessions/79dadbd9-8109-39a6-9c91-31deefddb658/contexts/brandsearch-name-followup",
+        "parameters": {
+          "name": "มาย",
+          "name.original": "มาย",
+          "Brand": "Audi",
+          "Brand.original": "Audi"
+        }
+      },
+      {
+        "name": "projects/supcar-85c0a/agent/sessions/79dadbd9-8109-39a6-9c91-31deefddb658/contexts/__system_counters__",
+        "parameters": {
+          "no-input": 0.0,
+          "no-match": 0.0,
+          "Brand": "Audi",
+          "Brand.original": "Audi",
+          "name": "มาย",
+          "name.original": "มาย"
+        }
+      }
+    ],
+    "intent": {
+      "name": "projects/supcar-85c0a/agent/intents/d2b97671-a647-4d1e-a08e-d31a5db5824e",
+      "displayName": "BrandSearch - name - Brand",
+      "endInteraction": True
+    },
+    "intentDetectionConfidence": 1.0,
+    "languageCode": "th"
+  },
+  "originalDetectIntentRequest": {
+    "source": "line",
+    "payload": {
+      "data": {
+        "replyToken": "6b558538ed2e4f7d985083a2b0986197",
+        "timestamp": "1666260011601",
+        "message": {
+          "type": "text",
+          "id": "16983680663868",
+          "text": "Audi "
+        },
+        "type": "message",
+        "source": {
+          "type": "user",
+          "userId": "Ucd9b92af48b3f3360ef2a4318ec600f8"
+        }
+      }
+    }
+  },
+  "session": "projects/supcar-85c0a/agent/sessions/79dadbd9-8109-39a6-9c91-31deefddb658"
 }
+ขออภัยไม่มีรถยนต์ที่ท่านต้องการ

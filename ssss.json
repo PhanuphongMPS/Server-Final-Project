@@ -1,0 +1,80 @@
+{
+    "responseId": "d857dd76-ce81-44e9-a322-78108fbce4af-d3dc5474",
+    "queryResult": {
+        "queryText": "Audi",
+        "action": "BrandSearch.BrandSearch-custom.BrandSearch-name-custom",
+        "parameters": {
+            "Brand": "Audi",
+            "name": "มาย"
+        },
+        "allRequiredParamsPresent": True,
+        "fulfillmentText": "รถยนต์ที่คุณมายต้องการค้นหาคือ Audi นะครับ",
+        "fulfillme       entMessages": [
+            {
+                "text": {
+                    "text": [
+                        "รถยนต์ที่คุณมายต้องการค้นหาคือ Audi นะครับ"
+                    ]
+                }
+            },
+            {
+                "payload": {
+                    "line": {
+                        "packageId": "1",
+                        "stickerId": "4",
+                        "type": "sticker"
+                    }
+                }
+            }
+        ],
+        "outputContexts": [
+            {
+                "name": "projects/supcar-85c0a/agent/sessions/84ea9db2-4710-3a77-a8b3-a57114b7648f/contexts/brandsearch-name-followup",
+                "parameters": {
+                    "name": "มาย",
+                    "name.original": "มาย",
+                    "Brand": "Audi",
+                    "Brand.original": "Audi"
+                }
+            },
+            {
+                "name": "projects/supcar-85c0a/agent/sessions/84ea9db2-4710-3a77-a8b3-a57114b7648f/contexts/__system_counters__",
+                "parameters": {
+                    "no-input": 0.0,
+                    "no-match": 0.0,
+                    "Brand": "Audi",
+                    "Brand.original": "Audi",
+                    "name": "มาย",
+                    "name.original": "มาย"
+                }
+            }
+        ],
+        "intent": {
+            "name": "projects/supcar-85c0a/agent/intents/d2b97671-a647-4d1e-a08e-d31a5db5824e",
+            "displayName": "BrandSearch - name - Brand",
+            "endInteraction": True
+        },
+        "intentDetectionConfidence": 1.0,
+        "languageCode": "th"
+    },
+    "originalDetectIntentRequest": {
+        "source": "line",
+        "payload": {
+            "data": {
+                "message": {
+                    "id": "16979669778345",
+                    "text": "Audi",
+                    "type": "text"
+                },
+                "timestamp": "1666193934291",
+                "type": "message",
+                "source": {
+                    "userId": "Uf7c0f0bb530de6c17b105c3bd99c9f38",
+                    "type": "user"
+                },
+                "replyToken": "bad427b883d149389e4aba753cd3537b"
+            }
+        }
+    },
+    "session": "projects/supcar-85c0a/agent/sessions/84ea9db2-4710-3a77-a8b3-a57114b7648f"
+}

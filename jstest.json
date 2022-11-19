@@ -1,0 +1,397 @@
+{
+    "type": "flex",
+    "altText": "Flex Message",
+    "contents": {
+      "type": "carousel",
+      "contents": [
+        {
+            "type": "flex",
+            "altText": "Flex Message",
+            "contents": {
+              "type": "carousel",
+              "contents": [
+                {
+                  "type": "bubble",
+                  "hero": {
+                    "type": "image",
+                    "url": "https://sv1.picz.in.th/images/2022/08/16/XpjwHf.png",
+                    "size": "full",
+                    "aspectRatio": "20:13",
+                    "aspectMode": "cover",
+                    "action": {
+                      "type": "uri",
+                      "label": "Line",
+                      "uri": "https://linecorp.com/"
+                    }
+                  },
+                  "body": {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                      {
+                        "type": "text",
+                        "text": "CBrand",
+                        "weight": "bold",
+                        "size": "xl",
+                        "contents": []
+                      },
+                      {
+                        "type": "box",
+                        "layout": "baseline",
+                        "margin": "md",
+                        "contents": [
+                          {
+                            "type": "text",
+                            "text": "CName",
+                            "size": "sm",
+                            "color": "#999999",
+                            "flex": 0,
+                            "margin": "md",
+                            "contents": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "footer": {
+                    "type": "box",
+                    "layout": "vertical",
+                    "flex": 0,
+                    "spacing": "sm",
+                    "contents": [
+                      {
+                        "type": "button",
+                        "action": {
+                          "type": "uri",
+                          "label": "ข้อมูลรถยนต์เพิ่ม",
+                          "uri": "http://www.spyderautoimport.com/premium-used-car/"
+                        },
+                        "height": "sm",
+                        "style": "link"
+                      },
+                      {
+                        "type": "spacer",
+                        "size": "sm"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "bubble",
+                  "hero": {
+                    "type": "image",
+                    "url": "https://sv1.picz.in.th/images/2022/08/16/XpjwHf.png",
+                    "size": "full",
+                    "aspectRatio": "20:13",
+                    "aspectMode": "cover",
+                    "action": {
+                      "type": "uri",
+                      "label": "Line",
+                      "uri": "https://linecorp.com/"
+                    }
+                  },
+                  "body": {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                      {
+                        "type": "text",
+                        "text": "CBrand",
+                        "weight": "bold",
+                        "size": "xl",
+                        "contents": []
+                      },
+                      {
+                        "type": "box",
+                        "layout": "baseline",
+                        "margin": "md",
+                        "contents": [
+                          {
+                            "type": "text",
+                            "text": "CName",
+                            "size": "sm",
+                            "color": "#999999",
+                            "flex": 0,
+                            "margin": "md",
+                            "contents": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "footer": {
+                    "type": "box",
+                    "layout": "vertical",
+                    "flex": 0,
+                    "spacing": "sm",
+                    "contents": [
+                      {
+                        "type": "button",
+                        "action": {
+                          "type": "uri",
+                          "label": "ข้อมูลรถยนต์เพิ่ม",
+                          "uri": "http://www.spyderautoimport.com/premium-used-car/"
+                        },
+                        "height": "sm",
+                        "style": "link"
+                      },
+                      {
+                        "type": "spacer",
+                        "size": "sm"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "bubble",
+                  "body": {
+                    "type": "box",
+                    "layout": "vertical",
+                    "spacing": "sm",
+                    "backgroundColor": "#000000FF",
+                    "borderColor": "#000000FF",
+                    "contents": [
+                      {
+                        "type": "button",
+                        "action": {
+                          "type": "uri",
+                          "label": "ดูรถยนต์เพิ่มเติม",
+                          "uri": "http://www.spyderautoimport.com/premium-used-car/"
+                        },
+                        "flex": 1,
+                        "color": "#FFFFFFFF",
+                        "gravity": "center"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+            ]
+          }
+        },
+        {
+          "type": "bubble",
+          "hero": {
+            "type": "image",
+            "url": "https://sv1.picz.in.th/images/2022/08/16/XpjwHf.png",
+            "size": "full",
+            "aspectRatio": "20:13",
+            "aspectMode": "cover",
+            "action": {
+              "type": "uri",
+              "label": "Line",
+              "uri": "https://linecorp.com/"
+            }
+          },
+          "body": {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "CBrand",
+                "weight": "bold",
+                "size": "xl",
+                "contents": []
+              },
+              {
+                "type": "box",
+                "layout": "baseline",
+                "margin": "md",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "CName",
+                    "size": "sm",
+                    "color": "#999999",
+                    "flex": 0,
+                    "margin": "md",
+                    "contents": []
+                  }
+                ]
+              }
+            ]
+          },
+          "footer": {
+            "type": "box",
+            "layout": "vertical",
+            "flex": 0,
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "ข้อมูลรถยนต์เพิ่ม",
+                  "uri": "http://www.spyderautoimport.com/premium-used-car/"
+                },
+                "height": "sm",
+                "style": "link"
+              },
+              {
+                "type": "spacer",
+                "size": "sm"
+              }
+            ]
+          }
+        },
+        {
+          "type": "bubble",
+          "hero": {
+            "type": "image",
+            "url": "https://sv1.picz.in.th/images/2022/08/16/XpjwHf.png",
+            "size": "full",
+            "aspectRatio": "20:13",
+            "aspectMode": "cover",
+            "action": {
+              "type": "uri",
+              "label": "Line",
+              "uri": "https://linecorp.com/"
+            }
+          },
+          "body": {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "CBrand",
+                "weight": "bold",
+                "size": "xl",
+                "contents": []
+              },
+              {
+                "type": "box",
+                "layout": "baseline",
+                "margin": "md",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "CName",
+                    "size": "sm",
+                    "color": "#999999",
+                    "flex": 0,
+                    "margin": "md",
+                    "contents": []
+                  }
+                ]
+              }
+            ]
+          },
+          "footer": {
+            "type": "box",
+            "layout": "vertical",
+            "flex": 0,
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "ข้อมูลรถยนต์เพิ่ม",
+                  "uri": "http://www.spyderautoimport.com/premium-used-car/"
+                },
+                "height": "sm",
+                "style": "link"
+              },
+              {
+                "type": "spacer",
+                "size": "sm"
+              }
+            ]
+          }
+        },
+        {
+          "type": "bubble",
+          "hero": {
+            "type": "image",
+            "url": "https://sv1.picz.in.th/images/2022/08/16/XpjwHf.png",
+            "size": "full",
+            "aspectRatio": "20:13",
+            "aspectMode": "cover",
+            "action": {
+              "type": "uri",
+              "label": "Line",
+              "uri": "https://linecorp.com/"
+            }
+          },
+          "body": {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "CBrand",
+                "weight": "bold",
+                "size": "xl",
+                "contents": []
+              },
+              {
+                "type": "box",
+                "layout": "baseline",
+                "margin": "md",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "CName",
+                    "size": "sm",
+                    "color": "#999999",
+                    "flex": 0,
+                    "margin": "md",
+                    "contents": []
+                  }
+                ]
+              }
+            ]
+          },
+          "footer": {
+            "type": "box",
+            "layout": "vertical",
+            "flex": 0,
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "ข้อมูลรถยนต์เพิ่ม",
+                  "uri": "http://www.spyderautoimport.com/premium-used-car/"
+                },
+                "height": "sm",
+                "style": "link"
+              },
+              {
+                "type": "spacer",
+                "size": "sm"
+              }
+            ]
+          }
+        },
+        {
+          "type": "bubble",
+          "body": {
+            "type": "box",
+            "layout": "vertical",
+            "spacing": "sm",
+            "backgroundColor": "#000000FF",
+            "borderColor": "#000000FF",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "ดูรถยนต์เพิ่มเติม",
+                  "uri": "http://www.spyderautoimport.com/premium-used-car/"
+                },
+                "flex": 1,
+                "color": "#FFFFFFFF",
+                "gravity": "center"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
