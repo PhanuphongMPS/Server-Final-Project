@@ -345,7 +345,7 @@ def callback():
         if request_json["events"][0]["message"]["type"] == "text":
             headers = dict(request.headers)
             headers.update({"Host": "dialogflow.cloud.google.com"})
-            requests.post("https://dialogflow.cloud.google.com/v1/integrations/line/webhook/feee7085-d5e1-4afe-a3b3-593afc0ddf56",
+            requests.post("https://bots.dialogflow.com/line/feee7085-d5e1-4afe-a3b3-593afc0ddf56/webhook",
                           data=request.data, headers=headers)
     except:
         None
